@@ -1,22 +1,26 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameSettings : MonoBehaviour
 {
     public int createdTiles = 0;
     public void SaveGame()
     { 
-        PlayerPrefs.SetInt("TilesKey", createdTiles);
+        PlayerPrefs.SetInt ("LevelEditorMain", SceneManager.GetActiveScene ().buildIndex);
+        PlayerPrefs.Save ();
+        Debug.Log("SAVE BUTTON CLICKED");
     }
 
     public void LoadGame()
-    { 
-        createdTiles = PlayerPrefs.GetInt("TilesKey", 0);
+    {
+        //PlayerPrefs.SetInt ("LevelEditorMain", SceneManager.GetActiveScene ().buildIndex);
+        //Debug.Log("LOAD BUTTON CLICKED");
     }
 
     public void ResetGame() 
     { 
-        PlayerPrefs.DeleteAll();
-        PlayerPrefs.DeleteKey("TilesKey");
+        //SceneManager.LoadScene("LevelEditorMain");
+        //Debug.Log("RESET BUTTON CLICKED");
     }
 }

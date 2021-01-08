@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
@@ -63,8 +64,12 @@ public class GridManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             tilemap.SetTile(tilemap.WorldToCell(position), tiles[selectedTile]);
+            if (!IsPointerOverUIObject())
+            { 
+                Debug.Log("TILE CLICKED");
+            }
         }
         
         if (Input.GetMouseButtonDown(1))
@@ -92,5 +97,14 @@ public class GridManager : MonoBehaviour
 
             i++;
         }
+    }
+    
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }
