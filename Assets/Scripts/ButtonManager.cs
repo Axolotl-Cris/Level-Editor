@@ -19,6 +19,7 @@ public class ButtonManager : MonoBehaviour
         {
             return;
         }
+        Debug.Log("Game has loaded");
     }
 
     public void QuitGame()
@@ -32,6 +33,7 @@ public class ButtonManager : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         SceneManager.LoadScene(0);
+        Debug.Log("You are in the main menu now");
     }
     
 }
