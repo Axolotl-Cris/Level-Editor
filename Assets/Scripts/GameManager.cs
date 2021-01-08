@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int createdTiles = 0;
+
+    public void SaveGame()
     {
-        
+        PlayerPrefs.SetInt("TilesKey", createdTiles);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadGame()
     {
-        
+        createdTiles = PlayerPrefs.GetInt("TilesKey", 0);
+        if (PlayerPrefs.HasKey("TilesKey"))
+        {
+            //sample
+        }
+    }
+
+    public void ResetGame()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("TilesKey");
     }
 }

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ede049-6114-4d8f-932e-cd50ce243d85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Level-Editor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelEditorMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelEditorMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/GridManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mlYC2Nwpf35TtJl93hs4iFgNpC" />
@@ -65,6 +67,7 @@
       <updated>1610069520570</updated>
       <workItem from="1610069529685" duration="24000" />
       <workItem from="1610070893006" duration="1512000" />
+      <workItem from="1610072745926" duration="978000" />
     </task>
     <servers />
   </component>
