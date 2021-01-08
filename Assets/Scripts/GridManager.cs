@@ -60,12 +60,6 @@ public class GridManager : MonoBehaviour
             selectedTile = 2;
             RenderUITiles();
         }
-        
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            selectedTile = 3;
-            RenderUITiles();
-        }
 
         if (Input.GetMouseButtonDown(0))
         {

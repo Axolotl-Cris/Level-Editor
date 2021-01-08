@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12ede049-6114-4d8f-932e-cd50ce243d85" name="Default Changelist" comment="" />
+    <list default="true" id="12ede049-6114-4d8f-932e-cd50ce243d85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GridManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GridManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/grassTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/grassTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/greenTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/greenTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pinkTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pinkTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/purpleTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/purpleTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileSet1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileSet1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/waterTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/waterTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/tileSet_39.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/tileSet_39.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +28,11 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/GridManager.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1mlYC2Nwpf35TtJl93hs4iFgNpC" />
   <component name="ProjectViewState">
@@ -54,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610069520570</updated>
       <workItem from="1610069529685" duration="24000" />
+      <workItem from="1610070893006" duration="506000" />
     </task>
     <servers />
   </component>
@@ -72,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

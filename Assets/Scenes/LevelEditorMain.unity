@@ -168,8 +168,7 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: 8d43045eed423a749b076b77015be725, type: 2}
   - {fileID: 11400000, guid: 11fb114d1e8eaab4d80af9449328f19c, type: 2}
-  - {fileID: 11400000, guid: 2ae2680c007dbba4d8853f002b296711, type: 2}
-  - {fileID: 11400000, guid: 35a4f9eaa6af1a74da27a223d5b1ef65, type: 2}
+  - {fileID: 11400000, guid: c457b533f6005a745be5edfba9e720bd, type: 2}
   UITiles: []
   selectedTile: 0
   tileGridUI: {fileID: 291509658}
@@ -352,7 +351,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  m_BackGroundColor: {r: 0.73165494, g: 0.8867924, b: 0.72783905, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
