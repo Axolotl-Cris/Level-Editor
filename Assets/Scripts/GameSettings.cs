@@ -1,27 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameSettings : MonoBehaviour
 {
-    private int createdTiles = 0;
-
+    public int createdTiles = 0;
     public void SaveGame()
-    {
+    { 
         PlayerPrefs.SetInt("TilesKey", createdTiles);
     }
 
     public void LoadGame()
-    {
+    { 
         createdTiles = PlayerPrefs.GetInt("TilesKey", 0);
-        if (PlayerPrefs.HasKey("TilesKey"))
-        {
-            //sample
-        }
     }
 
-    public void ResetGame()
-    {
+    public void ResetGame() 
+    { 
         PlayerPrefs.DeleteAll();
         PlayerPrefs.DeleteKey("TilesKey");
     }
